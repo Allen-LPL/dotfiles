@@ -435,9 +435,9 @@ CapsLock & /:: Send, {NumpadAdd}                                              ;|
 ;CapsLock & 2:: Send,{F5}                                             ;|
 ;CapsLock & 3:: Send,{F10}                                            ;|
 ;CapsLock & 4:: Send,{F11}                                            ;|
-CapsLock & 5:: Send,!7                                            ;|
+;CapsLock & 5:: Send,+{F5}                                            ;|
 ;-----------------------------------o                                ;|
-CapsLock & 6:: Send,+{F6}                                               ;|
+;CapsLock & 6:: Send,+6                                               ;|
 CapsLock & 7:: Send,+7                                               ;|
 CapsLock & 8:: Send,+8                                               ;|
 CapsLock & 9:: Send,+9                                               ;|
@@ -502,8 +502,8 @@ Return
 CapsLock & 1:: 
     IfWinActive,ahk_exe Code.exe
     {
-        Send,^k^s
-        ;Send,#1
+        ;Send,^k^s
+        Send,#1
     } Else if WinActive("ahk_exe EoCApp.exe") { ; 神界原罪2
         Send,{F1}
     }
@@ -547,7 +547,7 @@ CapsLock & 3::
     } Else if WinActive("ahk_exe Code.exe") {
         Send,^+p  
     } Else if WinActive("ahk_exe goland64.exe") {
-        Send,^{F5}
+        Send,{F2}
     } else{
         ; 快速开启phpstorm64
         hyf_onekeyWindow("C:\Users\RAZER\AppData\Local\JetBrains\Toolbox\apps\PhpStorm\ch-0\211.7442.50\bin\phpstorm64.exe", "SunAwtFrame", "\S")
@@ -558,10 +558,9 @@ CapsLock & 4::
     {
         Send,{F8}
     } Else if WinActive("ahk_exe Code.exe") {
-        ;Send,#^!'
-        Send,#1
+        Send,#^!'  
     }  else{
-        Send,#1
+        hyf_onekeyWindow("C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\PyCharm-P\ch-0\212.5080.64\bin\pycharm64.exe", "SunAwtFrame", "\S")
     }
 return
 
@@ -600,8 +599,6 @@ return
 
 ; 快速开启goland
 Space & 5::hyf_onekeyWindow("C:\Users\RAZER\AppData\Local\JetBrains\Toolbox\apps\Goland\ch-0\211.7442.57\bin\goland64.exe", "SunAwtFrame", "\S")
-Space & 6::Run, %ComSpec% /k Ahk2Exe.exe /in D:\Code\dotfiles\windows10\autohotkey\CapsLockSmall.ahk /out D:\Code\dotfiles\windows10\autohotkey\CapsLockSmall.exe
-Space & 7::Run, %ComSpec% /k D:\Code\dotfiles\windows10\docker-ip-setting.bat
 
 ; 快速启动程序的核心程序
 hyf_onekeyWindow(exePath, titleClass := "", titleReg := "")
@@ -771,5 +768,3 @@ tooltip,%clipboard%
 sleep,500
 tooltip,
 return
-
-
