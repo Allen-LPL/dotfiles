@@ -1,0 +1,133 @@
+﻿# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+
+192.168.11.18 git.fed.tm
+127.0.0.1       activate.navicat.com
+
+
+
+
+
+
+127.0.0.1 cv.test
+127.0.0.1 blog.test
+
+# diggle
+101.37.169.209 admin.baoshixingqiu.com
+
+# dzb
+39.98.61.240 www.dazuiba.com
+39.98.73.157 admin.dazuiba.com
+47.92.49.57 j.juxiangyou.com
+39.98.73.157 interface.dazuiba.com
+47.92.49.57 cron.dazuiba.com
+
+47.92.49.57 s.dazuiba.com
+
+39.98.61.240 dzb001
+39.98.73.157 dzb002
+47.92.49.57 dzb003
+
+# ttz
+125.77.23.59 ttz.api.119
+125.77.23.59 api.ttz.com
+125.77.23.59 ttz.api.com
+127.0.0.1 api1.ttz.dev
+127.0.0.1 api2.ttz.dev
+125.77.23.59 adminapi.ttz.dev
+125.77.23.62 ttz.api.120
+121.199.14.40 ttz.code
+125.77.24.78 ttz.web.78
+125.77.24.78 test.ttz.com
+125.77.24.78 sk.ttz.com
+125.77.24.78 sc.ttz.com
+
+
+
+127.0.0.1  xlglts.dev
+127.0.0.1 web.ttz.com
+127.0.0.1 web1.ttz.local
+127.0.0.1 api.ttz.local
+127.0.0.1 about.dazuiba.dev
+#127.0.0.1 api.ttz.com
+47.111.22.209 test.ttz2019.com
+
+
+47.111.26.120 ttz-web001
+47.111.16.254 ttz-web002
+47.111.26.30 ttz-server001
+47.111.30.21 ttz-basic001
+47.111.11.16 ttz-api001
+47.110.252.55 ttz-api002
+
+
+47.111.30.21 adminapi.ttz.com
+
+47.111.16.254 res.ttz.com
+
+47.111.16.254 ttz.com
+
+# ddos
+43.228.67.79 ddos.com
+
+######################### jxy
+#183.131.24.212 admin.juxiangyou.com
+124.160.146.210 admin.juxiangyou.com
+183.131.24.212 kibana.juxiangyou.com
+192.168.100.161 juxiangyou.cn
+
+######################### diggle
+122.224.83.205 act.baoshixingqiu.com
+122.224.83.205 games.baoshixingqiu.com
+118.178.226.127 home.baoshixingqiu.com
+122.224.83.204 admin.baoshixingqiu.com
+
+
+##  node 内网
+192.168.11.18 fed.tm
+192.168.11.18 git.fed.tm
+
+##  jxy 前端服务器
+25服务器 183.134.101.53
+27服务器 183.131.24.212
+pre服务器 218.205.92.141
+
+#103.88.35.84 www.juxiangyou.com
+#123.129.198.109 juxiangyou.com
+#123.129.198.109 www.juxiangyou.com
+47.97.157.18 i.juxiangyou.com
+
+
+
+
+192.168.100.166 paas.bktencent.com
+192.168.100.166 cmdb.bktencent.com
+192.168.100.166 job.bktencent.com
+192.168.100.166 jobapi.bktencent.com
+192.168.100.167 nodeman.bktencent.com
+# Added by Docker Desktop
+192.168.11.168 host.docker.internal
+192.168.11.168 gateway.docker.internal
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section
