@@ -57,7 +57,18 @@ return                                                               ;|
 ;----------------------------------o----------------------------------o
 ;                        CapsLock  |  {ESC}                          ;|
 ;----------------------------------o----------------------------------o
-CapsLock::Send, {ESC}                                                ;|
+CapsLock::
+    if WinActive("ahk_exe goland64.exe") {
+        SetEN() ;切换为英文0x4090409=67699721
+        Send,{ESC}
+    } Else if WinActive("ahk_exe happ.exe") {
+        SetEN() ;切换为英文0x4090409=67699721
+        Send,{ESC}
+    } else{
+        Send, {ESC}
+    }
+return
+                                              ;|
 ;---------------------------------------------------------------------o
 
 
@@ -369,12 +380,11 @@ CapsLock & g:: Send, Allen{(}{!})1293233                                 ;|
 ;                     CapsLock + t  |  Open Text Editor              ;|
 ;-----------------------------------o---------------------------------o
 CapsLock & e::                                              ;|
-PostMessage, 0x50, 0, 0x4090409, , A ;切换为英文0x4090409=67699721
+    SetEN() ;切换为英文0x4090409=67699721
 return                                                               ;|
 CapsLock & w::                                         ;|
-    PostMessage, 0x50, 0, 0x4090409, , A ;切换为英文0x4090409=67699721
-    PostMessage, 0x50, 0, 0x8040804, , A ;切换为中文，可以在搜狗输入法中设置默认为英文输入                                                     ;|
-    return
+    SetCN()                                                  ;|
+return
 
     
 
@@ -435,9 +445,9 @@ CapsLock & /:: Send, {NumpadAdd}                                              ;|
 ;CapsLock & 2:: Send,{F5}                                             ;|
 ;CapsLock & 3:: Send,{F10}                                            ;|
 ;CapsLock & 4:: Send,{F11}                                            ;|
-;CapsLock & 5:: Send,+{F5}                                            ;|
+CapsLock & 5:: Send,^{F5}                                            ;|
 ;-----------------------------------o                                ;|
-;CapsLock & 6:: Send,+6                                               ;|
+CapsLock & 6:: Send,+{F6}                                               ;|
 CapsLock & 7:: Send,+7                                               ;|
 CapsLock & 8:: Send,+8                                               ;|
 CapsLock & 9:: Send,+9                                               ;|
@@ -502,18 +512,18 @@ Return
 CapsLock & 1:: 
     IfWinActive,ahk_exe Code.exe
     {
-        ;Send,^k^s
-        Send,#1
+        Send,^k^s
+        ;Send,#1
     } Else if WinActive("ahk_exe EoCApp.exe") { ; 神界原罪2
         Send,{F1}
     }
     ;  Else if WinActive("ahk_exe goland64.exe") { ; 神界原罪2
      ;   Send,{F1}
-    ;} 
+    ;}
     else {
         hyf_onekeyWindow("C:\Users\RAZER\AppData\Local\JetBrains\Toolbox\apps\Goland\ch-0\211.7442.57\bin\goland64.exe", "SunAwtFrame", "\S")
         ;Send,#1
-        ;hyf_onekeyWindow("D:\Soft\JetBrains\PyCharm 2021.2.1\bin\pycharm64.exe", "SunAwtFrame", "\S") 
+        ;hyf_onekeyWindow("D:\Soft\JetBrains\PyCharm 2021.2.1\bin\pycharm64.exe", "SunAwtFrame", "\S")
     }
 return
 CapsLock & 2:: 
@@ -522,8 +532,9 @@ CapsLock & 2::
         Send,{F2}
     } Else if WinActive("ahk_exe Code.exe") {
         Send,{ESC}{,}{,}s
-    } Else if WinActive("ahk_exe goland64.exe") {
-        Send,{F2}
+    }  Else if WinActive("ahk_exe goland64.exe") {
+        PostMessage, 0x50, 0, 0x4090409, , A ;切换为英文0x4090409=67699721
+        Send,^;
     } else{
         Send,#2
     }
@@ -547,7 +558,8 @@ CapsLock & 3::
     } Else if WinActive("ahk_exe Code.exe") {
         Send,^+p  
     } Else if WinActive("ahk_exe goland64.exe") {
-        Send,{F2}
+        ;Send,+{ESC}
+        Send,^{F5}
     } else{
         ; 快速开启phpstorm64
         hyf_onekeyWindow("C:\Users\RAZER\AppData\Local\JetBrains\Toolbox\apps\PhpStorm\ch-0\211.7442.50\bin\phpstorm64.exe", "SunAwtFrame", "\S")
@@ -558,9 +570,11 @@ CapsLock & 4::
     {
         Send,{F8}
     } Else if WinActive("ahk_exe Code.exe") {
-        Send,#^!'  
+        Send,#1
+        ;Send,#^!'
     }  else{
-        hyf_onekeyWindow("C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\PyCharm-P\ch-0\212.5080.64\bin\pycharm64.exe", "SunAwtFrame", "\S")
+        Send,#1
+        ;hyf_onekeyWindow("C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\PyCharm-P\ch-0\212.5080.64\bin\pycharm64.exe", "SunAwtFrame", "\S")
     }
 return
 
@@ -571,9 +585,14 @@ return
 ; 快速开启XYplorer
 ;CapsLock & r::hyf_onekeyWindow("C:\Program Files (x86)\XYplorer\XYplorer.exe", "ThunderRT6FormDC", "\S")
 
-; 快速开启wox
-CapsLock & a:: #^!0
+;CapsLock & a:: #^!0
 ;CapsLock & a::hyf_onekeyWindow("C:\Users\Administrator\AppData\Local\Wox\app-1.4.1196\Wox.exe", "VirtualConsoleClass", "\S")
+;return
+
+; 快速开启wox
+CapsLock & a::
+    SetEN()
+    Send,#^!0
 return
 
 ; 快速开启Wechat.exe;
@@ -599,6 +618,8 @@ return
 
 ; 快速开启goland
 Space & 5::hyf_onekeyWindow("C:\Users\RAZER\AppData\Local\JetBrains\Toolbox\apps\Goland\ch-0\211.7442.57\bin\goland64.exe", "SunAwtFrame", "\S")
+Space & 6::Run, %ComSpec% /k Ahk2Exe.exe /in D:\Code\dotfiles\windows10\autohotkey\CapsLockSmall.ahk /out D:\Code\dotfiles\windows10\autohotkey\CapsLockSmall.exe
+Space & 7::Run, %ComSpec% /k D:\Code\dotfiles\windows10\docker-ip-setting.bat
 
 ; 快速启动程序的核心程序
 hyf_onekeyWindow(exePath, titleClass := "", titleReg := "")
@@ -721,6 +742,17 @@ AutoExec(CLASS, PATH, ISCLOSE = false)
     Return
 }
 
+SetEN()
+{
+    PostMessage, 0x50, 0, 0x4090409, , A ;切换为英文0x4090409=67699721
+}
+
+SetCN()
+{
+    PostMessage, 0x50, 0, 0x4090409, , A ;切换为英文0x4090409=67699721
+    PostMessage, 0x50, 0, 0x8040804, , A ;切换为中文，可以在搜狗输入法中设置默认为英文输入
+}
+
 ; 示例 : 在任务栏上滚动鼠标来调节音量.ddd
 #If MouseIsOver("ahk_class Shell_TrayWnd")
 WheelUp::Send {Volume_Up}
@@ -768,3 +800,5 @@ tooltip,%clipboard%
 sleep,500
 tooltip,
 return
+
+
