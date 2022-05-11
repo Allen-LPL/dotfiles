@@ -390,17 +390,17 @@ return
 
 
 
-CapsLock & f::                                                ;|
-if GetKeyState("alt") = 0                                            ;|
-{                                                                    ;|
-    Send, \\F                                                       ;|
-}                                                                       ;|
-else {                                                               ;|
-    Send, \\f                                                     ;|
-    return                                                           ;|
-}                                                                    ;|
-return                                                               ;|
-;CapsLock & t:: Run C:\Program Files (x86)\Notepad++\notepad++.exe    ;|
+; CapsLock & f::                                                ;|
+; if GetKeyState("alt") = 0                                            ;|
+; {                                                                    ;|
+;     Send, \\F                                                       ;|
+; }                                                                       ;|
+; else {                                                               ;|
+;     Send, \\f                                                     ;|
+;     return                                                           ;|
+; }                                                                    ;|
+; return                                                               ;|
+CapsLock & f::hyf_onekeyWindow("C:\Program Files\Mozilla Firefox\firefox.exe", "MozillaWindowClass", "\S") return
 ;---------------------------------------------------------------------o
 
 
@@ -447,8 +447,8 @@ CapsLock & /:: Send, {NumpadAdd}                                              ;|
 ;CapsLock & 4:: Send,{F11}                                            ;|
 CapsLock & 5:: Send,^{F5}                                            ;|
 ;-----------------------------------o                                ;|
-CapsLock & 6:: Send,+{F6}                                               ;|
-CapsLock & 7:: Send,+7                                               ;|
+CapsLock & 6:: Send,{F10}                                               ;|
+CapsLock & 7:: Send,{F12}                                               ;|
 CapsLock & 8:: Send,+8                                               ;|
 CapsLock & 9:: Send,+9                                               ;|
 CapsLock & 0:: Send,+0                                               ;|
