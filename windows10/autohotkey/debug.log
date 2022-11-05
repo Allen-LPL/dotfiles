@@ -1,0 +1,234 @@
+[1026/121522.816:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1026/121522.875:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:16680 gpu-process-sandbox:1
+[1026/121522.910:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1026/121523.051:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1026/121722.932:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1027/094427.947:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1027/094428.160:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:24832 gpu-process-sandbox:1
+[1027/094428.195:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1027/094428.387:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1027/094628.207:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1027/150555.071:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1027/150555.280:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:6220 gpu-process-sandbox:1
+[1027/150555.317:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1027/150555.517:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1027/150619.275:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1027/150619.403:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:23672 gpu-process-sandbox:1
+[1027/150619.440:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1027/150619.579:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1027/150819.456:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1028/095258.577:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1028/095258.699:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:24196 gpu-process-sandbox:1
+[1028/095258.734:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1028/095258.929:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1028/095458.738:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1028/103716.048:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1028/104936.224:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1028/104938.699:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1028/122333.441:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1028/124228.285:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1028/150125.965:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1028/154500.273:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1028/154502.831:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1028/171428.220:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1028/173629.657:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1028/173631.672:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1028/190756.683:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/095018.941:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/095020.725:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/140317.191:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/162224.807:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/162226.432:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/165421.344:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1029/165421.482:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:14772 gpu-process-sandbox:1
+[1029/165421.519:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1029/165421.728:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1029/165621.536:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1029/171435.709:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/171440.717:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/171445.732:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/171450.744:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/171455.766:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/171500.789:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/171505.809:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/171510.832:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/171515.844:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/171520.856:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/171525.869:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/171530.891:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/171535.227:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/171545.937:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173439.430:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173444.442:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173449.452:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173454.473:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173459.492:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173504.514:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173509.532:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173514.553:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173519.564:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173524.580:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173529.595:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173534.615:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173539.635:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173544.657:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173549.680:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173554.696:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173559.704:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173604.722:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173609.740:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173614.761:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173619.773:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173624.782:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173629.796:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173634.811:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173639.822:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173644.836:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173649.857:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/173651.923:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/181106.852:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/184929.285:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1029/184931.606:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1030/102040.155:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1030/102040.299:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:17100 gpu-process-sandbox:1
+[1030/102040.337:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1030/102040.578:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1030/102058.699:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1030/102058.840:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:17908 gpu-process-sandbox:1
+[1030/102058.884:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1030/102059.047:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1030/102258.901:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1030/144430.660:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1030/144430.783:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:15588 gpu-process-sandbox:1
+[1030/144430.822:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1030/144431.029:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1030/144630.838:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1031/094539.324:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094544.336:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094545.449:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094555.042:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094703.715:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094708.739:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094713.750:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094718.763:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094723.778:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094728.803:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094733.822:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094738.837:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094743.869:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094745.078:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094745.314:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094748.883:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094750.104:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094750.321:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094753.894:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094755.127:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094755.342:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094758.899:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094800.142:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1031/094800.358:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1101/095533.579:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1101/095533.724:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:17848 gpu-process-sandbox:1
+[1101/095533.769:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1101/095533.986:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1101/095733.790:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1101/160017.745:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1101/170711.684:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1101/170713.460:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1101/174239.779:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1101/174239.837:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:24320 gpu-process-sandbox:1
+[1101/174239.873:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1101/174240.013:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1101/174439.891:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1102/102134.280:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1102/102134.344:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:1428 gpu-process-sandbox:1
+[1102/102134.392:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1102/102134.621:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1102/102334.422:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1102/105857.689:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1102/110237.246:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1102/110239.643:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1108/204134.016:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1108/204134.154:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:33644 gpu-process-sandbox:1
+[1108/204134.193:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1108/204134.400:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1108/204334.213:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1114/153909.649:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1114/153909.829:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:38684 gpu-process-sandbox:1
+[1114/153909.879:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1114/153910.106:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1114/154109.880:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1115/100829.345:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1115/100831.657:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1115/100831.930:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1115/100832.809:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1117/233637.588:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1118/095933.811:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1118/095935.242:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1119/010002.012:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1119/091544.794:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1119/091546.277:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1119/092840.981:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1119/092841.046:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:40860 gpu-process-sandbox:1
+[1119/092841.089:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1119/092841.247:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1119/093041.114:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1122/094530.820:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1122/094530.865:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:58064 gpu-process-sandbox:1
+[1122/094530.910:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1122/094531.146:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1122/094544.891:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1122/094544.934:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:49784 gpu-process-sandbox:1
+[1122/094544.977:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1122/094545.116:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1122/094744.983:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1122/170255.431:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1123/094139.021:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1123/094139.142:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:6912 gpu-process-sandbox:1
+[1123/094139.183:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1123/094139.407:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1123/094339.236:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1123/232958.096:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1124/094056.370:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1124/094058.253:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1125/004253.240:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1125/100242.550:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1125/100244.452:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1125/233509.664:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1126/093150.575:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1126/093152.285:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1129/095706.879:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1129/095707.011:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:5568 gpu-process-sandbox:1
+[1129/095707.051:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1129/095707.335:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1129/095740.289:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1129/095740.419:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:13808 gpu-process-sandbox:1
+[1129/095740.462:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1129/095740.600:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1129/095940.461:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1129/134301.934:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1129/134301.980:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:17024 gpu-process-sandbox:1
+[1129/134302.031:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1129/134302.248:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1129/140503.501:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1129/140503.612:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:15208 gpu-process-sandbox:1
+[1129/140503.670:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1129/140503.802:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1129/140703.664:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1129/204107.337:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1129/204107.377:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:8304 gpu-process-sandbox:1
+[1129/204107.410:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1129/204107.637:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1130/094836.865:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1130/094836.977:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:10056 gpu-process-sandbox:1
+[1130/094837.041:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1130/094837.169:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1130/095037.028:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1201/002318.628:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1201/095656.557:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1201/095658.300:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[1201/100022.860:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: browser
+[1201/100023.053:INFO:gpu_process_host.cc(941)] [XWEB_LOG_GPU]  GPU process laucnched multi-process mode SUCCESS!!! gpu-process-pid:4212 gpu-process-sandbox:1
+[1201/100023.095:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
+[1201/100023.241:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: utility
+[1201/100223.105:INFO:crash_reporting.cc(219)] Crash reporting enabled for process: gpu-process
